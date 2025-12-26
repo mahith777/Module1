@@ -1,0 +1,136 @@
+# Conditional Statements in Python: Even or Odd Checker
+
+## 🎯 Aim
+To write a Python program to check whether the given number is **even** or **odd** using `if...else` statements.
+
+## 🧠 Algorithm
+1. Get an input from the user.
+2. Convert the input to an integer and store it in a variable `a`.
+3. Use the modulo operator `%` to check if `a % 2 == 0`.
+   - If true, print `"EVEN"`.
+   - Else, print `"ODD"`.
+4. End the program.
+
+## 🧾 Program
+```
+num=int(input()) 
+if(num%2==0): 
+    print("Even") 
+else: print("Odd")
+```
+
+
+## Output
+<img width="451" height="203" alt="image" src="https://github.com/user-attachments/assets/e66f91ba-c593-458e-b519-11035deff175" />
+
+## Result
+a Python program to check whether the given number is **even** or **odd** using `if...else` statements has executed successfully
+
+
+
+
+
+
+
+# Ex 1:Datatypes-Boolean Expression Evaluation in Python
+## 🎯 Aim
+To write a Python program that evaluates and prints the results of boolean and arithmetic expressions involving `True` and `False`.
+
+## 🧠 Algorithm
+1. Set variable `a` to the result of the expression `0 == True`.
+2. Set variable `b` to the result of the expression `False == False`.
+3. Set variable `c` to the result of the expression `True + True`.
+4. Set variable `d` to the result of the expression `False + 9`.
+5. Print the value of `a` with the label "a is".
+6. Print the value of `b` with the label "b is".
+7. Print the value of `c` with the label "c:".
+8. Print the value of `d` with the label "d:".
+
+## 💻 Program
+```
+a = (0 == True) 
+b = (False== False) 
+c = True + True 
+d = False + 9 
+print('a is',a) 
+print('b is',b) 
+print('c:',c) 
+print('d:',d)
+```
+## Output
+
+<img width="655" height="293" alt="image" src="https://github.com/user-attachments/assets/a9705378-3770-4483-982d-d7c0517e86ac" />
+
+## Result
+a Python program that evaluates and prints the results of boolean and arithmetic expressions involving `True` and `False`.
+
+# Datatypes-Character Literal in Python
+
+## 🎯 Aim
+To write a Python program that prints the characters `'T'` and `'a'` using character literals.
+
+## 🧠 Algorithm
+1. Print the character `'T'`.
+2. Print the character `'a'`.
+
+## 🧾 Program
+```
+v='T'
+b='a' 
+print(v) 
+print(b)
+```
+## Output
+<img width="557" height="291" alt="image" src="https://github.com/user-attachments/assets/fc9b3c6c-122a-4170-a139-346277b8e184" />
+
+## Result
+
+# 🧮 Datatypes-Complex Number Creation in Python
+
+## 🎯 Aim
+To write a Python program that reads two integers, creates a complex number using them, and then prints the complex number along with its real and imaginary parts.
+
+## 🧠 Algorithm
+1. Read an integer input from the user and assign it to the variable `a` (real part).
+2. Read another integer input from the user and assign it to the variable `b` (imaginary part).
+3. Create a complex number `x` using the `complex(a, b)` function.
+4. Print the complex number `x`.
+5. Print the real part of `x` using `x.real`.
+6. Print the imaginary part of `x` using `x.imag`.
+
+## 💻 Program
+```
+a=int(input())
+b=int(input())
+x=complex(a,b)
+print(x)
+print(x.real)
+print(x.imag)
+```
+## Output
+<img width="434" height="332" alt="image" src="https://github.com/user-attachments/assets/7f58dab5-a507-4605-addb-16e90883bba9" />
+
+## Result
+the code has runned successfully
+
+# Datatypes-Read and Print a String in Python
+
+## 🎯 Aim
+To write a Python program to read a string from the user and then print it.
+
+## 🧠 Algorithm
+1. Assign a variable named `men_stepped_on_the_moon`.
+2. Use `input()` to read a string from the user and store it in the variable.
+3. Print the value stored in the variable.
+
+## 🧾 Program
+```
+men_stepped_on_the_moon=input()
+print(men_stepped_on_the_moon)
+```
+## Output
+<img width="840" height="234" alt="image" src="https://github.com/user-attachments/assets/1a0606ee-ce8b-4330-bc66-50f04a8d7101" />
+
+## Result
+the python code has run successfully
+Python program that prints the characters `'T'` and `'a'` using character literals.
